@@ -1,0 +1,11 @@
+.maiin {
+	position: relative;
+    background-color: #b0e0e6;
+border: 1px solid black;
+
+}
+.bt2 {
+	position: absolute;
+	left:0;
+	top:0;
+	}
