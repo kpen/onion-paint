@@ -1,6 +1,5 @@
 function needSplinting()
 {
-	console.log(Math.sqrt(Math.pow((Lx-xx),2)+Math.pow((Ly-yy),2)));
  if (Math.sqrt(Math.pow((Lx-xx),2)+Math.pow((Ly-yy),2)) > 8)
  {return true;}
 else {return false;}
@@ -131,6 +130,7 @@ if (pressed == 1)
 		yy = Math.floor(pos.top);
 		Lx=xx; Ly=yy;
 }
+	}) 
 // - - - - - - - - - - - - - - - - - - - - - - - - - 
 $('#pandle').on( "dragstop", function(e, ui){ 
 	//console.log('DRAGGGG');
@@ -167,36 +167,6 @@ DRW();
 	}) ;
 // - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-function needSplinting()
-{
- if (Math.sqrt(Math.pow((Lx-xx),2)+Math.pow(Ly-yy),2) > 8)
- {return true;}
-else {return false;}
-	
-}
-
-
-	}) 
-
-/*
-
-	
-	$( "#xandle" ).on( "drag", function( event, ui ) {
-
-		var pos23 = $('#draggable').position();
-		var x23 = pos23.left;
-		var y23 = pos23.top;
-		pos23 = $('#xandle').position();
-		x23+=pos23.left-LUx;
-		y23+=pos23.top-LUy;
-		
-		
-$("#draggable").css({top:y23,left:x23});
-		Lx=x23; Ly=y23;
-		
-		LUx=pos23.left; LUy=pos23.top;
-		} );
-*/	
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - 
 	 
