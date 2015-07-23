@@ -1,27 +1,39 @@
-﻿<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-
-<title>Onion-SVG-editor</title>
-<link rel="stylesheet" type="text/css" href="./css/style102.css">
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <title>An SVG Editor is called Onion</title>
+  <!--meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta id="extViewportMeta" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"-->
+  <!--script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script-->
+  <style>
+    html, body {margin: 0; padding: 0; overflow: hidden}
+  </style>
+  <link rel="stylesheet" type="text/css" href="./css/style102.css">
 
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
-<script src="./js/jquery.ui.touch-punch.js"></script>
-
-  <script src="./js/func102.js"></script>
-   <script src="./js/svg.min.js"></script>
-
+<!--script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+<script src="./js/jquery.ui.touch-punch.js"></script-->
+<script src="./js/func52019.js"></script>
+<script src="./js/svg.min.js"></script>
 </head>
-
-<body bgcolor="#CfB949" style="cursor: auto;">
+<body>
+  <script>
+ 
+  </script>
+  <body bgcolor="#CfB949" style="cursor: auto;">
 <div class="maiin" id="drawing"> 
-<div> <img id="draggable" class="bt2 ui-draggable" src="imgs/topleft_1.gif" style="top: 129.5px; left: 314px;"> </div>
-<div> <img id="xandle" class="bt2 ui-draggable" src="imgs/hndl.gif" style="top: 100px; left: 100px;"> </div>
-<div> <img id="pandle" class="bt2 ui-draggable" src="imgs/pan_0.gif" style="display: none;"> </div>
-<div> <img id="zoomdle" class="bt2 ui-draggable" src="imgs/zoom_0.gif" style="display: none;"> </div>
+<div class="bt2" id="drawing2"> 
+<div> <img id="draggable" class="bt2" src="imgs/topleft_1.gif" style="width: 150px; height: 150px;"> </div>
+<div> <img id="linedrw" class="bt2" src="imgs/linedrw_0.gif" style="display: none;"> </div>
+<div> <img id="zoomdle" class="bt2" src="imgs/zoom_0.gif" style="display: none;"> </div>
+<div> <img id="save" class="bt2" src="imgs/save_0.gif" style="display: none;"> </div>
+<div> <img id="color" class="bt2" src="imgs/color_0.gif" style="display: none;"> </div>
+<div> <img id="pick" class="bt2" src="imgs/pick_0.gif" style="display: none;"> </div>
+<div> <img id="xandle" class="bt2" src="imgs/hndl.gif" style="display: none;"> </div>
+<div> <img id="crvdrw" class="bt2" src="imgs/curvedrw_0.gif" style="display: none;"> </div>
+<div> <img id="ok0" class="bt2" src="imgs/ok_0.png" style="display: none;"> </div>
 </div>
-<button onclick="myFunction()">Click me</button>
-<button onclick="myFunction2()">Click me too</button>
-<button onclick="myFunction3()">Click me</button>
-<button onclick="myFunction4()">Click me too</button>
-</body></html>
+  <!--Try pulling down this page with touch in iPhone/iPad, nothing happens! No rubberband scroll.-->
+</body>
+</html>
