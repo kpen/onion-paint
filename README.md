@@ -9,5 +9,4 @@ In this project some libraries are used:
 
 SVG.JS (svgjs.com)
 jQuery
-jQuery UI
-jQuery UI Touch Punch  (touchpunch.furf.com)
+
